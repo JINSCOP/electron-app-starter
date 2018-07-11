@@ -2,8 +2,8 @@
 
 ## 背景知识
 
-[Quick Start](./docs/quick-start.md)
-[Electron基础 - 解决无法使用jQuery/RequireJS/Meteor/AngularJS 的问题](./docs/issue01.md)
+* [Quick Start](./docs/quick-start.md)
+* [Electron基础 - 解决无法使用jQuery/RequireJS/Meteor/AngularJS 的问题](./docs/issue01.md)
 
 ## 先决条件 —— 安装electron
 npm install -g electron-prebuilt  
