@@ -31,7 +31,8 @@ electron .
     </script>
 <!--这里用来适配Electron : end  -->
 
+## 嵌入自己不能更改的页面（因为原因始Electron默认启用了Node.js的require模块等问题无法解决）
 
-
+使用./index_with_iframe.html页面，在iframe的src里面植入链接，并将main.js中的启动页面设置成该页面，如此可以解决。
 
 
