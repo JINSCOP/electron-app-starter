@@ -10,12 +10,20 @@ function createWindow() {
     // Create the browser window.
     win = new BrowserWindow({ width: 800, height: 600, webPreferences: { devTools: false } })
 
+    /** Load url demo ---begin */
     // and load the index.html of the app.
+    // win.loadURL(url.format({
+    //         pathname: "www.baidu.com",
+    //         protocol: 'http:',
+    //         // pathname: path.join(__dirname, 'index.html'),
+    //         // protocol: 'file:',
+    //         slashes: true
+    //     }))
+    /** Load url demo ---end */
+
     win.loadURL(url.format({
-        pathname: "www.baidu.com",
-        protocol: 'http:',
-        // pathname: path.join(__dirname, 'index.html'),
-        // protocol: 'file:',
+        pathname: path.join(__dirname, 'index_with_iframe.html'),
+        protocol: 'file:',
         slashes: true
     }))
 
