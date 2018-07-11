@@ -1,0 +1,18 @@
+{
+    "name": "framework-next",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "package": "electron-packager ./ Net4FrmWin --win --out output --arch=x64 --electron-version 1.4.13 --overwrite--ignore = node_modules ",
+        "package32": "electron-packager ./ Net4FrmWin32 --win --out output --arch=ia32 --electron-version 1.4.13 --overwrite--ignore = node_modules "
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron-packager": "^8.7.0",
+        "webpack": "^2.5.0"
+    },
+    "dependencies": {}
+}
